@@ -1,18 +1,4 @@
 #!/usr/bin/python
-#
-# execute this python file in the directory you locate target ZIPs (in labeling tool v3 format)
-# it report the number of 1) a specified tag (in XMLs without extracting ZIPs)
-#                         2) a specified tag with a given attribute (...)
-#                         3) a specified tag with a given attribute without a given child tag (...)
-#
-# below is an example getting the number of each "name" of all "Page" without child "ITSFINE": 
-#     $ python3 findElements.py Page name ITSFINE
-#     $ python  findElements.py Page name ITSFINE
-#
-# below is an example getting the number of each "value" of all "MEMO"
-#     $ python3 findElements.py MEMO value
-#     $ python  findElements.py MEMO value
-#
 
 import os
 import sys
